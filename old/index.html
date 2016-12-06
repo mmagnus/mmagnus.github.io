@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/dna.png" />
+
+    <title>Magnus Marcin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <link href="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap.css" rel="stylesheet">
+    <link href="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-responsive.css" rel="stylesheet">
+
+    <style>
+    body {
+    font-family: 'Georgia', Helvetica, Arial, serif;
+    color: #000;
+}
+    .bg {
+    background-color: #1B1B1B;
+    background-image: linear-gradient(to bottom, #222222, #111111);
+    background-repeat: repeat-x;
+
+     border-color: #252525;
+    color:white;
+    padding:50px;
+    }
+    
+    h1, h2{
+    margin: 0px;
+    padding:0px;
+    }
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+     }
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 800px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-57-precomposed.png">
+		    <link rel="shortcut icon" type="image/x-icon" href="icon.fav">
+    <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+
+    <style type="text/css">
+	  #sponsors td {text-align:right};
+	  #sponsors table {width:100%};
+    </style>
+
+</head>
+
+ 
+  <body linkifymax="0" linkifycurrent="0" linkifying="true">
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+      <div class="featurette" id="home">
+        <h1 class="">Marcin Magnus<span style="color:#f0f0f5"> PhD</span></h1>
+	
+    <section id="downloads" class="clearfix">
+          <a href="https://github.com/mmagnus" id="view-on-github" class="button"><span>View on GitHub</span></a>
+    </section>
+    
+	<p>
+	  <img style="width:400px;padding-left:20px" src="images/logo.png">
+	</p>
+
+<p>
+  <b style="font-size:20px">The interesting discovery: <span class="label label-important">#inprogress</span></b>
+</p>
+
+	<p>
+	  My area of interest is structural bioinformatics: development of new methods and application of existing ones.
+	</p>
+
+	<p>
+
+  <span class="muted">
+    Citations (date: 160618): 91, H-index: 7 <a href="http://scholar.google.pl/citations?user=O2gLO2EAAAAJ&hl=en">GoogleScholar</a> | <a href="https://www.researchgate.net/profile/Marcin_Magnus">ResearchGate</a> | <a target="_blank" href="http://www.mendeley.com/profiles/marcin-magnus/">Mendeley</a>
+  </span>
+
+  <h1>Science</h1>
+
+  <h3>Publications</h3>
+  
+	<p>10. <b>RNA DCA...</b> <span class="label label-warning">#inprogress</span></p>
+	<p>9. <b>RNA SAM III...</b> <span class="label label-warning">#inprogress</span></p>
+
+	<p>8. <b>RNA Puzzle III</b> <span class="label label-warning">#inprogress</span></p>
+	<p>7. <b>Evolution-based 3D RNA structure modeling</b> <span class="label label-warning">#inprogress</span>
+	<p>6. <b>mqapRNA + experimental data</b> <span class="label label-warning">#inprogress</span></p>
+
+	<p>5. <b>Magnus M#</b>, Boniecki M#, Dawson W, Bujnicki JM (2016) <i>SimRNAweb: a web server for RNA 3D structure modeling with restraints</i>
+	  Nucleic Acids Research | <a href="http://iimcb.genesilico.pl/SimRNAweb/">SimRNAweb</a></p>
+
+	<p>4. Tuszynska I, <b>Magnus M</b>, Jonak K, Dawson W, Bujnicki JM (2015) <i>NPDock: a web server for protein-nucleic acid docking.</i> Nucleic Acids Research | <a href="http://iimcb.genesilico.pl/NPDock/">NPDdock</a></p>
+
+	<p>3. Miao Z, Adamiak RW, Blanchet MF, Boniecki M, Bujnicki JM, Chen SJ, Cheng C, Chojnowski G, Chou FC, Cordero P, Cruz JA, Ferré-D'Amaré AR, Das R, Ding F, Dokholyan NV, Dunin-Horkawicz S, Kladwang W, Krokhotin A, Lach G, <b>Magnus M</b>, Major F, Mann TH, Masquida B, Matelska D, Meyer M, Peselis A, Popenda M, Purzycka KJ, Serganov A, Stasiewicz J, Szachniuk M, Tandon A, Tian S, Wang J, Xiao Y, Xu X, Zhang J, Zhao P, Zok T, Westhof E. (2015) <i>RNA-Puzzles Round II: Assessment of RNA structure prediction programs applied to three large RNA structures</i> RNA | <a href="http://ahsoka.u-strasbg.fr/rnapuzzles/">RNA Puzzle</a></p>
+
+	<p>2. Korneta I, <b>Magnus M</b>, Bujnicki JM (2012) <i>Structural Bioinformatics of the Human Spliceosomal Poteome</i>, Nucleic Acids Research | <a href="http://iimcb.genesilico.pl/SpliProt3D/home/">SpliProt3D</a>/p>
+
+	<p>1. <b>Magnus M</b>, Pawlowski M, Bujnicki JM (2012) <i>MetaLocGramN: a meta-predictor of protein subcellular localization for Gram-negative bacteria</i>, BBA - Proteins and Proteomics | <a target="_blank" href="http://genesilico.pl/MetaLocGramN/">MetaLocGramN</a></p>
+
+	<h3>Reviews</h3>
+
+	<p>2. <b>Magnus M#</b>, Matelska D#, Łach G, Chojnowski G, Boniecki MJ, Purta E, Dawson W, Dunin-Horkawicz S, Bujnicki JM (2014)
+	<i>Computational modeling of RNA 3D structures, with the aid of experimental restraints, RNA biology</i>
+	</p>
+	<p>
+	1. Tuszynska I, Matelska D, <b>Magnus M</b>, Chojnowski G, Kasprzak JM, Kozlowski LP, Dunin-Horkawicz S, Bujnicki JM (2013) <i>Computational modeling of protein-RNA complex structures</i>, Methods 
+	</p>
+
+	<h3>Book chapters</h3>
+	<p>
+	  3. Bharat M, Kasprzak J, Tuszynska I, <b>Magnus M</b>, Szczepaniak K, Dawson W, Bujnicki JM (2015) <i>Modeling of protein-RNA complex structures using computational docking methods</i> </span> 
+	</p>
+
+	<p>
+	  2. Piatkowski P,  Kumar D, Kasprzak JM,  <b>Magnus  M</b>, Chojnowski G, Bujnicki JM (2015) <i>RNA 3D Structure by Combination of Template-Based and Template-Free Modeling with ModeRNA and SimRNA</i> 
+	</p>
+	<p>
+	1. Kozlowski M, Starega-Roslan J, Legacz M, <b>Magnus M</b>, Krzyzosiak WJ (2008) <i>Structures of MicroRNA Precursors</i>, Current Perspectives in
+microRNAs (miRNA) Shao-Yao Ying
+	</p>
+
+	<small># The authors wish it to be known that the two first authors should be regarded as joint first authors</small>
+
+	<br />
+	<br />
+
+        <h1 class="featurette-heading">Skills</h1>
+
+<br />
+<h2>Biostructural bioinformatics</h2><span class="label label-info">RNA 3D modeling</span> <span class="mute"><b>PROTEIN</b>: protein sequence searching, protein interface prediction, the effect of mutations on protein stability predicting, protein 3D prediction with ROSETTA, MODELLER, SWISS-MODEL, protein model quality assessment with MetaMQAPII;
+<b>RNA</b>: secondary structure prediction (based on single sequence or alignment), RNA sequence alignment, RNA searching (sequence and
+covariance model) and clustering, motif detection (rmdetect), RNA structure analysis (x3dna, rnaview, Mc-Annotate), RNA molecular dynamics with
+Zephyr/OpenMM, and RNA 3D prediction: RNAkb, NAST, FARNA, DMD/iFoldRNA, RNAComposer, MC-Fold|MC-Sym, ModeRNA and SimRNA
+<b>RNA-protein complex</b>: RNPdock/DARS-RNP
+
+	<h2>SciSoftDev</h2> <span class="label label-info">Python</span> <span class="label label-info">C++</span> <span class="label label-info">Lisp</span>
+
+<span class="mute">Programming in Python (expert), C++ (basic), agile software development (testing/source code controlling/quick releasing) with Python & Git, bash scripting, database design and development with MySQL & SQLite, web development with Django/jQuery/HTML/CSS/Apache/Bootstrap, server and client in SOAP, PyMOL plugin programming, Github & Travis CI</span></br></br>
+<!--	<b>Read relevant books</b>: <a href="http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X">The Pragmatic Programmer: From Journeyman to Master, Andrew Hunt, 1999</a>, <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=pd_sim_b_2?ie=UTF8&refRID=0E9WJ80GNDAJ7R5WX35V">Clean Code, Robert C. Martin, 2008</a>
+-->
+
+	<h2>Statistical skills</h2> <span class="label label-info">Machine Learning with Python/R</span> <span class="mute">Statistical analysis of biological data with R, machine learning algorithms (support vector machine, random forest, neural networks, generalized linear models) in R and scikit</span>
+
+	</br>
+</br>
+	<br />
+
+        <h1 class="featurette-heading">Workshops & Courses</h1>
+	<br />
+	<h2>RNA bioinformatics</h2>
+	NGS Data Analysis, RNAseq, ChIPseq, Oeiras, Portugal, 2016 <br />
+	RNA Bioinformatics, Oeiras, Portugal, 2012 <br />
+	<a href="http://bibiserv.techfak.uni-bielefeld.de/EMBO-RNACourse/">EMBO Practical Course on Computational RNA Biology</a>, Corsica, France, 2010
+	<br />
+	
+	<h2>SciSoftDev</h2>
+	<span class="mute"><a href="https://python.g-node.org/wiki/students">Advanced Scientific Programming in Python</a>, a Summer School by the G-Node and the Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture (FESB), Split, Croatia, 2014</span>
+	<br />
+
+	 <h2>Statistics</h2>
+	 <a href="https://weka.waikato.ac.nz/dataminingwithweka/course">Data Mining with Weka</a> Waikato Course <span class="label label-warning">#inprogress</span> 2015</br>
+
+	 <a href="https://www.coursera.org/course/matlab">Introduction to Programming with MATLAB</a> Coursera <span class="label label-warning">#inprogress</span> 2015</br>
+
+	 <a href="https://class.coursera.org/ml-007">Machine Learning</a> Coursera <span class="label label-warning">#inprogress</span> 2014</br>
+	 <a href="https://class.coursera.org/predmachlearn-006">Practical Machine Learning</a> Coursera <span class="label label-warning">#inprogress</span> 2014</br>
+	 <a href="https://class.coursera.org/regmods-007">Regression Models</a> Coursera <span class="label label-warning">#inprogress</span> 2014</br>
+
+	 <a href="https://class.coursera.org/compdata-002">Computing for Data Analysis</a>
+ 	 Coursera with <span class="label label-success">Statement of Accomplishment</span>
+	 2013
+	 <br />
+	 <a href="https://class.coursera.org/dataanalysis-001">Data Analysis</a>
+	 Coursera with <span class="label label-success">Statement of Accomplishment</span>
+	 2013
+	</br>
+
+
+	<h2>SoftSkills</h2>
+	<a href="https://class.coursera.org/learning-002">Learning How to Learn</a> Coursera, <span class="label label-success">Passed with distinction (96.4%)</span> 2014</br>
+	<span class="mute"><a href="http://www.embo.org/funding-awards/young-investigators/embo-young-investigator-phd-course">EMBO YIP PhD Course</a>, EMBL in Heidelberg, Germany, 2012</br>
+	  Scientific Communication by prof. Edward Potworowski, Warszawa, Poland, 2011</br>
+	  The Craft of Scientific Writing (Beginner and Intermediate Level) by prof. Jean-Luc Lebrun, Warszawa, Poland, 2012
+	</span>
+
+	<br />
+	<br />
+	<br />
+
+        <h1 class="featurette-heading">Conferences</h1>
+	<br />
+	RNA Society Meeting 2016, Kyoto, Japan, 28.06-02.07, <i>RNA 3D structure prediction using multiple sequence alignment information</br>
+	RNA Society Meeting 2015, Wisconsin, USA, 26-31.06, <i>(1) NPDock - a web server for protein-nucleic acid docking & (2) RNA-Puzzles: Critical assessment of RNA structure prediction</i></br>
+	RNA Society Meeting 2014, Québec, Canada, 3-8.06, <i>(1) Improved quality assessment of RNA 3D models & (2) RNA-Puzzles Round II: Assessment of RNA structure predic on of two large riboswitches</i></br>
+	<br />
+
+      <!-- FOOTER -->
+      <footer>
+        <p>2014-2016 <a href="mailto:magnus@genesilico.pl">Magnus</a> and <a href="http://getbootstrap.com/2.3.2/">bootstrap</a>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/jquery.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-transition.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-alert.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-modal.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-dropdown.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-scrollspy.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-tab.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-tooltip.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-popover.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-button.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-collapse.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-carousel.js"></script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="https://dl.dropboxusercontent.com/u/472680/web2/bs/holder.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(e){a
+      $("* a[href^='#']").on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate(
+      { scrollTop: $(this.hash).offset().top }
+      , 500);
+      // edit: Opera and IE requires the "html" elm. animated
+      });})
+    </script>
+  
+</body></html>
+
+
