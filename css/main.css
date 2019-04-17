@@ -996,6 +996,7 @@ header .social-links ul li a:focus {
 
 #home.home-particles {
     background: ornage; /*#020507;*/
+
     overflow: hidden;
 }
 #home.home-particles .pg-canvas {
