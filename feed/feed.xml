@@ -14,9 +14,9 @@
       <itunes:name>Hitchhiker's guide to the galaxy</itunes:name>
       <itunes:email></itunes:email>
     </itunes:owner>
-    <meta property="og:image" content="https://mmagnus.github.io/feeds/artwork.jpg"/>
+    <meta property="og:image" content="https://mmagnus.github.io/feed/artwork.jpg"/>
     <itunes:image
-      href="https://mmagnus.github.io/feeds/artwork.jpg"
+      href="https://mmagnus.github.io/feed/artwork.jpg"
     />
     <itunes:category text="">
       <itunes:category text=""/>
