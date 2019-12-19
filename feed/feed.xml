@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hitchhiker's guide to the galaxy</title>
-    <link>https://www.apple.com/itunes/podcasts/</link>
+    <link>https://mmagnus.io</link>
     <language>en-us</language>
     <copyright></copyright>
     <itunes:author>Hitchhiker's guide to the galaxy</itunes:author>
@@ -16,7 +16,7 @@
     </itunes:owner>
     <meta property="og:image" content="https://mmagnus.github.io/feed/artwork.jpg"/>
     <itunes:image
-      href="https://mmagnus.github.io/feed/artwork.jpg"
+      href="https://mmagnus.github.io/feed/artworksq.jpg"
     />
     <itunes:category text="">
       <itunes:category text=""/>
@@ -39,18 +39,16 @@
       />
       <guid>aae20190418</guid>
       <pubDate>Tue, 8 Jan 2019 01:15:00 GMT</pubDate>
-      <itunes:duration>1079</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>1</itunes:episode>
-      <itunes:season>1</itunes:season>
       <title>12 rules</title>
       <description>
       </description>
       <enclosure
-        length="8727310" 
+        length="" 
         type="audio/mpeg" 
         url="https://www.mboxdrive.com/Jordan%20B.%20Peterson%20-%2012%20Rules%20For%20Life%20(Audiobook,%20Unabridged).mp3"
       />
