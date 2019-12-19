@@ -45,16 +45,16 @@
     </item>
     <item>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>4</itunes:episode>
-      <itunes:season>2</itunes:season>
-      <title>S02 EP04 Mt. Hood, Oregon</title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <title>[test] S02 EP04 Mt. Hood, Oregon</title>
       <description>
         [test] Tips for trekking around the tallest mountain in Oregon
       </description>
       <enclosure
         length="8727310" 
-        type="audio/x-mp3" 
-        url="https://voca.ro/i8iorq50Wn8"/>
+        type="audio/mpeg" 
+        url="https://www.dropbox.com/s/wbgohwiyl7kwm67/Jordan%20B.%20Peterson%20-%2012%20Rules%20For%20Life%20%28Audiobook%2C%20Unabridged%29.mp3"/>
       <guid>aae20190606</guid>
       <pubDate>Tue, 07 May 2019 12:00:00 GMT</pubDate>
       <itunes:duration>1024</itunes:duration>
