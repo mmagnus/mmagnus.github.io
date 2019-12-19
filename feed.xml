@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hitchhiker's guide to the galaxy</title>
+    <link>https://mmagnus.io</link>
+    <language>en-us</language>
+    <copyright></copyright>
+    <itunes:author>Hitchhiker's guide to the galaxy</itunes:author>
+    <description>
+     Hitchhiker's guide to the galaxy
+    </description>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Hitchhiker's guide to the galaxy</itunes:name>
+      <itunes:email></itunes:email>
+    </itunes:owner>
+    <meta property="og:image" content="https://mmagnus.github.io/feed/artwork.jpg"/>
+    <itunes:image
+      href="https://mmagnus.github.io/feed/artworksq.jpg"
+    />
+    <itunes:category text="">
+      <itunes:category text=""/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:title>Hiking Treks Trailer</itunes:title>
+      <description>
+        <content:encoded>
+          <![CDATA[The Sunset Explorers share tips, techniques and recommendations for
+          great hikes and adventures around the United States. Listen on 
+          <a href="https://www.apple.com/itunes/podcasts/">Apple Podcasts</a>.]]>
+        </content:encoded>
+      </description>
+      <enclosure 
+        length="498537" 
+        type="audio/mpeg" 
+        url="http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3"
+      />
+      <guid>aae20190418</guid>
+      <pubDate>Tue, 8 Jan 2019 01:15:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <title>12 rules</title>
+      <description>
+      </description>
+      <enclosure
+        length="1" 
+        type="audio/mpeg" 
+        url="https://www.mboxdrive.com/Jordan%20B.%20Peterson%20-%2012%20Rules%20For%20Life%20(Audiobook,%20Unabridged).mp3"
+      />
+      <guid>aae20190606</guid>
+      <pubDate>Tue, 07 May 2019 12:00:00 GMT</pubDate>
+      <itunes:duration>1024</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
