@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:Nucleic Acid 3D Structure Special Interest Group
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 13.1//EN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:GMT-7
+TZOFFSETTO:-0700
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:GMT-8
+TZOFFSETTO:-0800
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20230518T192235Z
+DTEND;TZID=America/Los_Angeles:20230523T090000
+TRANSP:OPAQUE
+UID:AB7C6B4A-7B87-4182-A543-65A750C66BE2
+DTSTART;TZID=America/Los_Angeles:20230523T080000
+LAST-MODIFIED:20230518T192244Z
+DTSTAMP:20230518T192303Z
+LOCATION:https://stanford.zoom.us/j/93445935624?pwd=K0VUWk0zaVNMZlU1U0xU
+ MS8vSWUwZz09
+SUMMARY:Nucleic Acid 3D Structure Special Interest Group
+SEQUENCE:0
+DESCRIPTION:--\nYou received this message because you are subscribed to 
+ the Google Groups "CASP RNA SIG" group.\nTo unsubscribe from this group 
+ and stop receiving emails from it\, send an email to casp-rna-sig+unsubs
+ cribe@googlegroups.com<mailto:casp-rna-sig+unsubscribe@googlegroups.com>
+ .\nTo view this discussion on the web visit https://groups.google.com/d/
+ msgid/casp-rna-sig/BYAPR02MB4279CC020B96D2AE5B4AFB05B57E9%40BYAPR02MB427
+ 9.namprd02.prod.outlook.com<https://urldefense.proofpoint.com/v2/url?u=h
+ ttps-3A__groups.google.com_d_msgid_casp-2Drna-2Dsig_BYAPR02MB4279CC020B9
+ 6D2AE5B4AFB05B57E9-2540BYAPR02MB4279.namprd02.prod.outlook.com-3Futm-5Fm
+ edium-3Demail-26utm-5Fsource-3Dfooter&d=DwMFaQ&c=WO-RGvefibhHBZq3fL85hQ&
+ r=0lUjW57N1liiDVO5wzD9g5qjic3xcIQ5O7wLU7r81hA&m=upYZGeuynZNx71zd_pyP8Mx9
+ nBA4NdUd7BtF5zd5N4j_DnSc9e3F2aPpBmKoJmuL&s=JZimSOmnXG00D-HeXQcBB2m3WnebO
+ 31r6z78SM1dfWw&e=>.\n
+BEGIN:VALARM
+UID:281C7F7C-6B2C-4FDC-AC9B-7135D3230A18
+X-WR-ALARMUID:281C7F7C-6B2C-4FDC-AC9B-7135D3230A18
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
