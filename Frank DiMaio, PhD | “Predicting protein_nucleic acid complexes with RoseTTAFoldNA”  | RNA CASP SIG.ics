@@ -2,6 +2,7 @@ BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
 PRODID:-//Apple Inc.//macOS 13.1//EN
 VERSION:2.0
+X-CALENDARSERVER-ACCESS:PUBLIC
 BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:DAYLIGHT
@@ -20,7 +21,7 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20230601T015351Z
+CREATED:20230601T020237Z
 DESCRIPTION:Next week join us our second RNA CASP SIG meeting with a pre
  sentation from\,  Dr. Frank DiMaio: \nredicting protein/nucleic acid com
  plexes with RoseTTAFoldNA\nPredicting protein/nucleic acid complexes wit
@@ -52,9 +53,9 @@ DESCRIPTION:Next week join us our second RNA CASP SIG meeting with a pre
   state of and new developments in our community. https://groups.google.c
  om/g/casp-rna-sig and click "Ask to join group"\n\n
 DTEND;TZID=America/New_York:20230606T120000
-DTSTAMP:20230601T015628Z
+DTSTAMP:20230601T020253Z
 DTSTART;TZID=America/New_York:20230606T110000
-LAST-MODIFIED:20230601T015624Z
+LAST-MODIFIED:20230601T020237Z
 LOCATION:https://stanford.zoom.us/j/93445935624?pwd=K0VUWk0zaVNMZlU1U0xU
  MS8vSWUwZz09 \n
 SEQUENCE:0
@@ -62,7 +63,7 @@ STATUS:CONFIRMED
 SUMMARY:Frank DiMaio\, PhD | “Predicting protein/nucleic acid complexes 
  with RoseTTAFoldNA”  | RNA CASP SIG
 TRANSP:OPAQUE
-UID:93A20A68-D924-4C88-BB52-BEE07EA29293
+UID:C37188E0-9EB3-421E-947A-90CEC91BEAB1
 BEGIN:VALARM
 ACTION:NONE
 TRIGGER;VALUE=DATE-TIME:19760401T005545Z
