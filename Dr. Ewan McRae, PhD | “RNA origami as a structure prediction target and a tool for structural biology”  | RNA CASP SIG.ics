@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:Dr. Ewan McRae\, PhD | “RNA origami as a structure predicti
+ on target and a tool for structural biology”  | RNA CASP SIG\n
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 13.1//EN
+X-CALENDARSERVER-ACCESS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:GMT-4
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:GMT-5
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20230620T120000
+UID:C37188E0-9EB3-421E-947A-90CEC91BEAB1
+DTSTAMP:20230612T180427Z
+LOCATION:https://stanford.zoom.us/j/93445935624?pwd=K0VUWk0zaVNMZlU1U0xU
+ MS8vSWUwZz09 \n
+DESCRIPTION:Next week join us our second RNA CASP SIG meeting with a pre
+ sentation from:\n\nDr. Ewan McRae\nRNA origami as a structure prediction
+  target and a tool for structural biology\n\nRNA origami are designer RN
+ A structures that are programmed\, via their sequence\, to fold co-trans
+ criptionally into arbitrary 3D shapes. Although the secondary structure 
+ of these sequences poses little challenge to prediction algorithms\, the
+ ir relatively long length and large number of tertiary interactions and 
+ junctions complicate the prediction of their 3D structure. We have recen
+ tly updated the RNA origami design process to improve its throughput and
+  characterized numerous RNA origami structures with cryo-EM. Here we wil
+ l discuss the similarities and differences between our designs\, the exp
+ erimental structures as well as the structural predictions from the CASP
+ 15 community experiment.\n\nZoom link Tuesday June 20 Pacific Time 8am /
+  Eastern Time 11am / Central European Time: 5pm / China Standard Time: 1
+ 1pm\n\nIf you have recommendations on topics of discussion or speakers\,
+  please feel free to email us as well. \n\nSee you!\nRachael Kretsch (Rh
+ iju Das and Wah Chiu labs @Stanford)\nMarcin Magnus (Elena Rivas lab @Ha
+ rvard) \n\nYOUTUBE PLAYLIST\nhttps://www.youtube.com/playlist?list=PLRX3
+ RsMqVcfr0xKSJIepkXSRLufAGU7sC\n\nWe aim to meet virtually monthly to dis
+ cuss the state of and new developments in our community. https://groups.
+ google.com/g/casp-rna-sig and click "Ask to join group"\n\nhttps://stanf
+ ord.zoom.us/j/93445935624?pwd=K0VUWk0zaVNMZlU1U0xUMS8vSWUwZz09 \n
+STATUS:CONFIRMED
+SEQUENCE:5
+SUMMARY:Dr. Ewan McRae\, PhD | “RNA origami as a structure prediction ta
+ rget and a tool for structural biology”  | RNA CASP SIG\n
+DTSTART;TZID=America/New_York:20230620T110000
+LAST-MODIFIED:20230612T180420Z
+CREATED:20230601T020237Z
+BEGIN:VALARM
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+END:VCALENDAR
